@@ -8,6 +8,10 @@ const Header = () => {
       <Navbar.Brand as={Link} to="/">
         MERN App
       </Navbar.Brand>
+
+      <Nav.Link as={Link} to="/books">
+          Books
+            </Nav.Link>
       <Nav className="mr-auto">
         <Nav.Link as={Link} to="/users">
           Users
@@ -27,6 +31,7 @@ const Header = () => {
         <Nav.Link as={Link} to="/logout">
           Logout
             </Nav.Link>
+
 
 
 
