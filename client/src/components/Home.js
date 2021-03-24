@@ -15,8 +15,8 @@ const EnterPage = () => {
          <div className="nav-page">
             <h1>Welcome to</h1>
             <h1>old town</h1>
-            <Link to="/list">
-               <button className="welcome-btn"><a href='Books.js'></a>Start read</button>
+            <Link to="/books">
+               <button className="welcome-btn">Start read</button>
             </Link>
          </div>
       </div>

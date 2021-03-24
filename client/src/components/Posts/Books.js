@@ -1,6 +1,6 @@
 import React from "react";
 import axios from 'axios';
-import PostsUi from "./Posts/PostsUI";
+import PostsUi from "./PostsUI";
 import { useEffect, useState } from "react";
 import { Grid } from "@material-ui/core";
 

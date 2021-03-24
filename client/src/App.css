@@ -36,7 +36,7 @@ height: 50%;
 
 } */
 .navbar {
-  background-color: #00acc1 !important;
+  background-color: rgb(240, 188, 47) !important;
   padding-top: 0;
   padding-bottom: 0;
   /* border: 1px solid black; */
@@ -150,20 +150,20 @@ height: 50%;
 }
 
 .icon{
-  color: #007c91;
+  color: rgb(240, 188, 47);
 }
 
 .MuiInputBase-input:focus{
-  border-color: #007c91
+  border-color: rgb(240, 188, 47)
 }
 .MuiInput-underline:after{
-  border-bottom: 2px solid #007c91 !important;
+  border-bottom: 2px solid rgb(240, 188, 47) !important;
 }
 .MuiFormLabel-root.Mui-focused {
   color: #102027 !important;
 }
 .title-text {
-  color: #004085;
+  color: rgb(240, 188, 47);
   font-size: 100px;
   /* vertical-align: middle; */
   line-height: calc(100vh - 56px);

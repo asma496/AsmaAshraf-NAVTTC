@@ -10,6 +10,8 @@ import SingleUser from "./components/Users/SingleUser";
 import Home from "./components/Home";
 import AddPost from "./components/Posts/AddPost";
 import Posts from "./components/Posts/Posts";
+import Books from "./components/Posts/Books";
+
 import SinglePost from "./components/Posts/SinglePost";
 import UpdatePost from "./components/Posts/UpdatePost";
 import Signin from "./components/Auth/SignIn";
@@ -65,7 +67,7 @@ function App() {
             <Logout />
           </Route>
           <Route path="/books">
-            <Logout />
+          <Books />
           </Route>
           <Route path="/">
             <Home />
